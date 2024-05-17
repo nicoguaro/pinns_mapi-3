@@ -46,7 +46,7 @@ Puedes activar el entorno con
 conda activate pinn-tutorial
 ```
 
-s## Comprobando la instalación
+## Comprobando la instalación
 
 Después de la instalación puedes comprobar si todo está instalado.
 
