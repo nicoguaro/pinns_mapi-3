@@ -7,9 +7,9 @@ en el marco del tercer Congreso Colombiano de Matemáticas Aplicadas e Industria
 
 ## Contenido
 
- 1. [Motivación](##motivación)
- 2. [Instalación](##instrucciones-de-instalación)
- 3. [Comprobando la instalación](##comprobando-la-instalación)
+ 1. [Motivación](#motivación)
+ 2. [Instalación](#instrucciones-de-instalación)
+ 3. [Comprobando la instalación](#comprobando-la-instalación)
 
 ## Motivación
 
@@ -34,7 +34,7 @@ Cree un entorno conda usando el archivo ``pinn-tutorial.yml`` en la ruta
 del repositorio usando
 
 ```console
-conda env create -f pinn.yml
+conda env create -f pinn-tutorial.yml
 ```
 
 Esto creará un entorno conda llamado "pinn-tutorial" con todos los
@@ -46,7 +46,7 @@ Puedes activar el entorno con
 conda activate pinn-tutorial
 ```
 
-## Comprobando la instalación
+s## Comprobando la instalación
 
 Después de la instalación puedes comprobar si todo está instalado.
 
