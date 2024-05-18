@@ -9,12 +9,12 @@ Aplicadas e Industriales ejecutando algunos ejemplos.
 """
 import numpy as np
 
+
 ## Datos de prueba: Matlab `peaks()`
 x, y = np.mgrid[-3:3:150j,-3:3:150j]
 z =  3*(1 - x)**2 * np.exp(-x**2 - (y + 1)**2) \
    - 10*(x/5 - x**3 - y**5)*np.exp(-x**2 - y**2) \
    - 1./3*np.exp(-(x + 1)**2 - y**2)
-
 
 #%% Matplotlib
 try:
@@ -40,3 +40,9 @@ except:
     print("¡Matplotlib no está funcionando correctamente!")
 
 
+
+#%% Pytorch
+try:
+    pass
+except:
+    pass

@@ -19,26 +19,32 @@ try:
     assert sys.version_info >= (3,0)
     import importlib.util
 except AssertionError:
-    warn('This tutorial is written for Python 3.  Legacy Python is not explicitly supported.')
+    warn('Este tutorial está pensado para Python 3.')
     onpy2 = True
 
 def tuple_version(version):
     return tuple(int(x) for x in version.strip('<>+-=.').split('.'))
 
 def check_versions():
-    version_trouble=False
-    mpl = importlib.import_module('matplotlib')
-    mpl_version = tuple_version(mpl.__version__)
-    if mpl_version < (2, 0, 0):
-        print('Please update matplotlib to version 2.0.0 or higher')
-        version_trouble=True
+    version_trouble = False
+    
+    modules_names = ['numpy', 'scipy', 'matplotlib', 'jupyterlab', 'pytorch',
+               'sympy']
+    versions = [(3, 12), (1, 26), (1, 13), (3, 8), (4, 2), (2, 2), (1, 12)]
+
+    for module_name, version in zip(modules_names, versions):
+        module = importlib.import_module(module_name)
+        module_version = tuple_version(module.__version__)
+        if module_version < version:
+            print(f'Por favor actualiza {module_name} a la versión {version[0].version[1]} o mayor')
+            version_trouble = True
 
     return version_trouble
 
+
 def main():
-    required_modules = ['numpy', 'matplotlib', 'jupyter', 'scipy',
-                        'vtk', 'IPython', 'jupyter', 'mayavi',
-                        'yt', 'ipyvolume', 'spyder', 'PyQt5']
+    required_modules = ['numpy', 'matplotlib', 'jupyterlab', 'scipy',
+                        'pytorch', 'sympy']
     
     missing_modules = []
     for mod in required_modules:
@@ -53,17 +59,17 @@ def main():
                 missing_modules.append(mod)
 
     if missing_modules:
-        print('The following modules are required but not installed:')
+        print('Los siguientes módulos se requieren pero no están instalados:')
         print('    {}'.format(', '.join(missing_modules)))
-        print('\nYou can install them using conda by running:')
+        print('\nLos puede instalar usando conda ejecutando:')
         print('\n    conda install {}'.format(' '.join(missing_modules)))
-        print('\nOr you can install them using pip by running:')
+        print('\nO puede instalarlo usando pip ejecutando:')
         print('\n    pip install {}'.format(' '.join(missing_modules)))
     else:
         if check_versions():
-            print('All packages are installed but at least one needs updating')
+            print('Todos los paquetes están instalados pero al menos uno necesita acualización')
         else:
-            print('Everything looks good!')
+            print('¡Todo parece estar bien!')
 
 if __name__ == '__main__':
     main()
