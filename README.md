@@ -1,5 +1,8 @@
 # Introducción a las redes neuronales informadas por la física
 
+[![Abrir en Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicoguaro/pinns_mapi-3/HEAD)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nicoguaro/pinns_mapi-3)
+
 Este repositorio contiene materiasl sobre redes neuronales informadas por la física
 (PINNs, del inglés Physics-Informed Neural Newtorks) y está pensado para un minicurso
 en el marco del tercer Congreso Colombiano de Matemáticas Aplicadas e Industriales (MAPI-3).
