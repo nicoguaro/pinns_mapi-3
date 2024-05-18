@@ -1,10 +1,12 @@
 name: pinn-tutorial
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.10
-  - numpy
-  - scipy
-  - matplotlib
-  - jupyterlab
-  - pytorch
+  - python=3.12
+  - numpy=1.26
+  - scipy=1.13
+  - matplotlib=3.8
+  - jupyterlab=4.2
+  - pytorch=2.2
+  - sympy=1.12
