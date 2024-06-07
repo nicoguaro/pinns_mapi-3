@@ -5,7 +5,6 @@
 # Color palette from:
 # http://colorbrewer2.org/#type=qualitative&scheme=Set1&n=8
 
-
 font.family : sans-serif
 
 axes.facecolor : white
@@ -17,6 +16,10 @@ lines.linewidth : 1.5
 
 xtick.direction : in
 ytick.direction : in
+xtick.bottom : False
+xtick.top : False
+ytick.left : False
+ytick.right : False
 
 grid.color : c7dedf
 grid.linestyle : -
