@@ -10,6 +10,11 @@ Aplicadas e Industriales ejecutando algunos ejemplos.
 import numpy as np
 
 
+def mensaje(msg):
+    msg = "\n\n" + msg
+    print(msg)
+    print("="*len(msg))
+
 ## Datos de prueba: Matlab `peaks()`
 x, y = np.mgrid[-3:3:150j,-3:3:150j]
 z =  3*(1 - x)**2 * np.exp(-x**2 - (y + 1)**2) \
@@ -18,24 +23,21 @@ z =  3*(1 - x)**2 * np.exp(-x**2 - (y + 1)**2) \
 
 #%% Matplotlib
 try:
-    msg = "Probando la instalación de Matplotlib"
-    print(msg)
-    print("="*len(msg))
+    mensaje("Probando la instalación de Matplotlib")
     import matplotlib.pyplot as plt
-    from mpl_toolkits.mplot3d import Axes3D
     from matplotlib.colors import LightSource
 
-    Axes3D
     fig = plt.figure()
-    ax = fig.gca(projection='3d')
+    ax = fig.add_subplot(projection='3d')
 
-    # Create light source object.
+    # Crea una fuente de luz
     ls = LightSource(azdeg=0, altdeg=65)
     rgb = ls.shade(z, plt.cm.RdYlBu)
-    surf = ax.plot_surface(x, y, z, rstride=1, cstride=1, linewidth=0,
-                           antialiased=False, facecolors=rgb)
-    plt.show()
+    surf = ax.plot_surface(x, y, z, rstride=1, cstride=1,
+                           linewidth=0, antialiased=False,
+                           facecolors=rgb)
     print("¡Matplotlib está funcionando correctamente!")
+
 except:
     print("¡Matplotlib no está funcionando correctamente!")
 
@@ -43,6 +45,20 @@ except:
 
 #%% Pytorch
 try:
-    pass
+    mensaje("Probando la instalación de PyTorch")
+    import torch
+    import matplotlib.pyplot as plt
+    
+    npts = 1000
+    X = torch.linspace(-5, 5, npts).view(-1, 1)
+    Y = torch.sin(X**2)
+    
+    
+    plt.figure()
+    plt.plot(X.numpy(), Y.numpy())
+    plt.xlabel('$x$')
+    plt.ylabel('$y$')
+    print("¡PyTorch está funcionando correctamente!")
+    plt.show()
 except:
-    pass
+    print("¡PyTorch no está funcionando correctamente!")
