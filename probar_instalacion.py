@@ -28,7 +28,7 @@ def tuple_version(version):
 def check_versions():
     version_trouble = False
     
-    modules_names = ['numpy', 'scipy', 'matplotlib', 'jupyterlab', 'pytorch',
+    modules_names = ['numpy', 'scipy', 'matplotlib', 'jupyterlab', 'torch',
                'sympy']
     versions = [(3, 12), (1, 26), (1, 13), (3, 8), (4, 2), (2, 2), (1, 12)]
 
@@ -44,7 +44,7 @@ def check_versions():
 
 def main():
     required_modules = ['numpy', 'matplotlib', 'jupyterlab', 'scipy',
-                        'pytorch', 'sympy']
+                        'torch', 'sympy']
     
     missing_modules = []
     for mod in required_modules:
