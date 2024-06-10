@@ -30,7 +30,7 @@ def check_versions():
     
     modules_names = ['numpy', 'scipy', 'matplotlib', 'jupyterlab', 'torch',
                'sympy']
-    versions = [(3, 12), (1, 26), (1, 13), (3, 8), (4, 2), (2, 2), (1, 12)]
+    versions = [(1, 26), (1, 13), (3, 8), (4, 2), (2, 2), (1, 12)]
 
     for module_name, version in zip(modules_names, versions):
         module = importlib.import_module(module_name)
