@@ -1,5 +1,7 @@
 # Introducción a las redes neuronales informadas por la física
 
+![GitHub](https://img.shields.io/github/license/nicoguaro/pinns_mapi-3)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Abrir en Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicoguaro/pinns_mapi-3/HEAD)
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nicoguaro/pinns_mapi-3)
 
