@@ -39,7 +39,7 @@ Cree un entorno conda usando el archivo ``pinn-tutorial.yml`` en la ruta
 del repositorio usando
 
 ```console
-conda env create -f pinn-tutorial.yml
+conda env create -f environment.yml
 ```
 
 Esto creará un entorno conda llamado "pinn-tutorial" con todos los
