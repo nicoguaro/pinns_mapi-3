@@ -4,8 +4,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Abrir en Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nicoguaro/pinns_mapi-3/HEAD)
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nicoguaro/pinns_mapi-3)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11974585.svg)](https://doi.org/10.5281/zenodo.11974585)
 
-Este repositorio contiene materiasl sobre redes neuronales informadas por la física
+Este repositorio contiene material sobre redes neuronales informadas por la física
 (PINNs, del inglés Physics-Informed Neural Newtorks) y está pensado para un minicurso
 en el marco del tercer Congreso Colombiano de Matemáticas Aplicadas e Industriales (MAPI-3).
 
@@ -91,6 +92,38 @@ compartimos 4 que pueden servir como punto de partida para el tópico.
 - Krishnapriyan, Aditi, et al. ["Characterizing possible failure modes
   in physics-informed neural networks."](https://arxiv.org/abs/2109.01050)
   Advances in Neural Information Processing Systems 34 (2021): 26548-26560.
+
+
+## Citation
+
+Para citar este tutorial en publicaciones utilice
+
+
+  Manuela Bastidas Olivares, Nicolás Guarín-Zapata. (2024). nicoguaro/pinns_mapi-3:
+  Tutorial de PINNs MAPI-3 v1.0 (v1.0). Zenodo. https://doi.org/10.5281/zenodo.11974585
+
+Para citar en LaTex, puede utilizar:
+
+```bibtex
+@software{pinns_mapi-3,
+  title = {Introducción a las redes neuronales informadas por la
+  física},
+  version = {1.0},
+  author = {Bastidas Olivares, Manuela and Guarín-Zapata, Nicolás},
+  year = 2024,
+  keywords = {redes neuronales informadas por la física,
+              ecuaciones diferenciales parciales, aprendizaje automático,
+              physics-informed neural networks, partial differential equations,
+              machine learning},
+  abstract = {Este repositorio contiene materiasl sobre redes neuronales
+  informadas por la física (PINNs, del inglés Physics-Informed Neural Newtorks)
+  y está pensado para un   minicurso en el marco del tercer Congreso Colombiano
+  de   Matemáticas Aplicadas e Industriales (MAPI-3).},
+    
+  url = {https://github.com/nicoguaro/pinns_mapi-3},
+  doi = {https://doi.org/10.5281/zenodo.11974585}
+}
+```
 
 ## Licencia
 
