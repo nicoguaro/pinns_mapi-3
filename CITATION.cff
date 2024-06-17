@@ -1,0 +1,43 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Introducción a las redes neuronales informadas por la
+  física
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Manuela
+    family-names: Bastidas Olivares
+    email: mbastidaso@unal.edu.co
+    affiliation: 'Universidad Nacional de Colombia, Sede Medellín'
+    orcid: 'https://orcid.org/0000-0002-3006-2363'
+  - given-names: Nicolás
+    family-names: Guarín-Zapata
+    email: nguarinz@eafit.edu.co
+    affiliation: Universidad EAFIT
+    orcid: 'https://orcid.org/0000-0002-9435-1914'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11974585
+repository-code: 'https://github.com/nicoguaro/pinns_mapi-3'
+abstract: >-
+  Este repositorio contiene materiasl sobre redes neuronales
+  informadas por la física (PINNs, del inglés
+  Physics-Informed Neural Newtorks) y está pensado para un
+  minicurso en el marco del tercer Congreso Colombiano de
+  Matemáticas Aplicadas e Industriales (MAPI-3).
+keywords:
+  - redes neuronales informadas por la física
+  - ecuaciones diferenciales parciales
+  - physics-informed neural networks
+  - partial differential equations
+  - aprendizaje automático
+  - machine learning
+license: MIT
+commit: e85da98
+version: '1.0'
+date-released: '2024-05-17'
