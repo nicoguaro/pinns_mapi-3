@@ -15,6 +15,9 @@ en el marco del tercer Congreso Colombiano de Matemáticas Aplicadas e Industria
  1. [Motivación](#motivación)
  2. [Instalación](#instrucciones-de-instalación)
  3. [Comprobando la instalación](#comprobando-la-instalación)
+ 4. [Referencias](#referencias)
+ 5. [Licencia](#licencia)
+
 
 ## Motivación
 
@@ -64,6 +67,26 @@ Para comprobar si todo funciona, ejecute las demostraciones con
 ```console
 python demo.py
 ```
+
+
+## Referencias
+
+- Raissi, Maziar, Paris Perdikaris, and George E. Karniadakis.
+  ["Physics-informed neural networks: A deep learning framework for solving
+  forward and inverse problems involving nonlinear partial differential
+  equations."](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
+  Journal of Computational physics 378 (2019): 686-707.
+
+- Karniadakis, George Em, et al.
+  ["Physics-informed machine learning."](https://doi.org/10.1038/s42254-021-00314-5)
+  Nature Reviews Physics 3.6 (2021): 422-440.
+
+- Chuang, Pi-Yueh, and Lorena A. Barba.
+  ["Predictive limitations of physics-informed neural networks in vortex shedding."](https://arxiv.org/abs/2306.00230) arXiv preprint arXiv:2306.00230 (2023).
+
+- Krishnapriyan, Aditi, et al. ["Characterizing possible failure modes
+  in physics-informed neural networks."](https://arxiv.org/abs/2109.01050)
+  Advances in Neural Information Processing Systems 34 (2021): 26548-26560.
 
 ## Licencia
 
