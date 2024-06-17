@@ -71,6 +71,9 @@ python demo.py
 
 ## Referencias
 
+Existen muchos artículos científicos relacionados con PINNs. A continuación,
+compartimos 4 que pueden servir como punto de partida para el tópico.
+
 - Raissi, Maziar, Paris Perdikaris, and George E. Karniadakis.
   ["Physics-informed neural networks: A deep learning framework for solving
   forward and inverse problems involving nonlinear partial differential
@@ -82,7 +85,8 @@ python demo.py
   Nature Reviews Physics 3.6 (2021): 422-440.
 
 - Chuang, Pi-Yueh, and Lorena A. Barba.
-  ["Predictive limitations of physics-informed neural networks in vortex shedding."](https://arxiv.org/abs/2306.00230) arXiv preprint arXiv:2306.00230 (2023).
+  ["Predictive limitations of physics-informed neural networks in vortex shedding."]
+  (https://arxiv.org/abs/2306.00230) arXiv preprint arXiv:2306.00230 (2023).
 
 - Krishnapriyan, Aditi, et al. ["Characterizing possible failure modes
   in physics-informed neural networks."](https://arxiv.org/abs/2109.01050)
