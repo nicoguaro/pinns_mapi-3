@@ -10,6 +10,8 @@ Este repositorio contiene material sobre redes neuronales informadas por la fís
 (PINNs, del inglés Physics-Informed Neural Newtorks) y está pensado para un minicurso
 en el marco del tercer Congreso Colombiano de Matemáticas Aplicadas e Industriales (MAPI-3).
 
+Diapositivas: [https://speakerdeck.com/manubastidas/curso-pinns-mapi3-2024](https://speakerdeck.com/manubastidas/curso-pinns-mapi3-2024).
+
 
 ## Contenido
 
